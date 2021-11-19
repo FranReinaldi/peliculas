@@ -26,7 +26,7 @@ function App() {
       }
     });
     let json = await respuesta.json();
-    debugger;
+    alert(json);
   }
 
   buscarPeliculas();
